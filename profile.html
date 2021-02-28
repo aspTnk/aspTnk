@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>AsahiTanaka | Home</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+
+<body id="prf">
+	
+	<header>
+		<div class="fvProf">
+			<div class="inner">
+				<div class="profBox">
+					<div class="about">
+						<ul>
+							<li class="bld">AOBUT</li>
+							<li>田中 あさひ Born in 1996</li>
+							<li>佐賀県出身</li>
+							<li>2016 - Flower Designer</li>
+							<li>2020 - Web Designer</li>
+						</ul>
+						<ul>
+							<li class="bld">CONTACT</li>
+							<li>atmrng@gmail.com</li>
+						</ul>
+					</div>
+					<div class="me"><img src="img/png/asahitanaka.png" alt="アイコン"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+		<div class="wrapper">
+			<div class="inner">
+			<div class="mainContents">
+				<div class="menu">
+					<div class="click"><a href="#"><img src="img/png/click.png" alt="click"></a></div>
+					<div class="topNav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="profile.html">Profile</a></li>
+							<li><a href="works.html">Works</a></li>
+							<li><a href="io.html">Input/Output</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="subMenu">
+					<h2><img src="img/png/profile.png" alt="Profile"></h2>
+					<div class="ttl"><h3 class="kkr">たなか　あさひ</h3></div>
+					<div class="timeline">
+						<dl>
+							<dt>趣味</dt>
+							<dd>
+								<ul>
+									<li>読書/人の心理観察</li>
+									<li>散歩:<br>自然を心より愛しています。<br>勉強の合間や思考を整理したい時は公園を歩いています。</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>1996年</dt>
+							<dd>佐賀県生まれ。</dd>
+							<dt>2016年</dt>
+							<dd>ある日ふと入った花屋に興味を持ち、学校卒業後<br>Flower Designer としてキャリアをスタート<br>佐賀県内外九州を中心にブライダル装飾・空間装飾に従事。</dd>
+							<dt>2017年</dt>
+							<dd>更に幅広く技術を身に付けたいと考え<br>東京都内にてFlower Designer として従事。<br>ブライダルをはじめ大規模かつ大胆な装飾と<br>お客様に寄り添った提案を強みとする。</dd>
+							<dt>2021年</dt>
+							<dd>花屋で働く中で、最新のwebサービスを利用する機会があり、<br>その技術的内容に興味をもちweb業界へ飛び込む。<br>現在web制作会社にてWeb Designer として従事。</dd>
+							<dt>2021年</dt>
+							<dd>自身の更なる技術向上や興味関心への追求の為学習継続中。</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	
+	
+	<footer class="foot">
+		<div class="inner">
+			<p>ASAHI TANAKA @2021</p>
+		</div>
+	</footer>
+	
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+$(function() {
+	$('.slider').slick({
+		autoplay: true,
+		autoplaySpeed: 2500,
+		speed: 800,
+		centerPadding: '20%',
+		centerMode: true,
+		dots: false,
+    	arrows: false,
+	}); 
+})
+$(function () {
+    $('.click').on('click', () => {
+        $('.fvProf').stop().fadeToggle(1000);
+    });
+});
+</script>
+</body>
+</html>
