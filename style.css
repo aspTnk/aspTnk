@@ -430,10 +430,11 @@ body {
 	font-size: 4vw;
 }
 .slide {
-	margin: 30px 0 30px;
+	margin: 0px 0 30px;
 }
 .slide P {
 	font-size: 3vw;
+	padding-right: 10px;
 	}
 .slide img {
 	width: 100%;
