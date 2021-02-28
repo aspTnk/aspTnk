@@ -386,8 +386,9 @@ body {
 }
 .slide img {
 	width: 100%;
-	height: auto;
-	padding: 0px 50px;
+	height: 30vw;
+	object-fit: cover;
+	padding: 0px 20px;
 }
 .slide .slick-slide:not(.slick-center) {
   -webkit-filter: grayscale(100%);
